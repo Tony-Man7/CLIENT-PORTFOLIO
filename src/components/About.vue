@@ -6,7 +6,7 @@ import ImageProvider from './ImageProvider.vue';
     <ImageProvider section="about" v-slot="{ image }">
 
         <section class="relative bg-primary text-white py-20" id="about">
-            <div class="container mx-auto px-6 md:px-12 lg:px-20 text-center">
+            <div class="container mx-auto px-6 md:px-12 lg:px-20 text-center" data-aos="fade-down">
                 <div class="flex flex-col items-center">
                     <div class="w-full max-w-3xl overflow-hidden rounded-lg">
                         <img :src="image" alt="About Image" />

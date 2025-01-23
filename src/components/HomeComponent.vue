@@ -5,7 +5,7 @@ import ImageProvider from './ImageProvider.vue';
 
 <template>
   <ImageProvider section="hero" v-slot="{ image }">
-    <section class="relative h-screen text-white overflow-hidden">
+    <section class="relative h-screen text-white overflow-hidden" data-aos="fade-up">
       <div class="absolute inset-0">
         <img :src="image"
         alt="Background" class="w-full h-full object-cover" />

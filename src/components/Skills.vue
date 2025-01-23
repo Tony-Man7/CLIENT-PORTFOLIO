@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="min-h-screen bg-white text-primary flex items-center justify-center px-6">
+  <div class="py-20 bg-white text-primary flex items-center justify-center px-6" data-aos="fade-up">
     <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <h1 class="font-extrabold text-4xl md:text-6xl lg:text-7xl text-primary uppercase">personal skills</h1>
@@ -14,7 +14,7 @@
         </p>
       </div>
       <!-- Right Section -->
-      <div class="flex flex-col space-y-4 text-primary font-semibold">
+      <div class="flex flex-col space-y-4 text-primary leading-relaxed">
         <div class="grid grid-cols-2 gap-4 ">
           <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
             Data Management
