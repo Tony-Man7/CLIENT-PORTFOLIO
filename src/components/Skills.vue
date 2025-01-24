@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div class="py-20 bg-white text-primary flex items-center justify-center px-6" data-aos="fade-up">
-    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div class="py-20 bg-white text-primary flex items-center justify-center px-6">
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
       <div>
         <h1 class="font-extrabold text-4xl md:text-6xl lg:text-7xl text-primary uppercase">personal skills</h1>
         <p class="mt-4 text-base md:text-lg lg:text-xl text-primary leading-relaxed max-w-2xl mx-auto">

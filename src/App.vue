@@ -4,6 +4,12 @@ import Home from './components/HomeComponent.vue'
 import About from './components/About.vue'
 import Skills from './components/Skills.vue'
 import Experience from './components/Experience.vue'
+import Education from './components/Education.vue'
+import Projects from './components/Projects.vue'
+import Contact from './components/Contact.vue'
+
+
+
 
 
 </script>
@@ -15,10 +21,10 @@ import Experience from './components/Experience.vue'
     <About />
     <Skills />
     <Experience />
+    <Education />
+    <Projects />
+    <Contact />
 
-  
-    <!-- <Projects /> -->
-    <!-- <Contact /> -->
   </div>
 </template>
 
