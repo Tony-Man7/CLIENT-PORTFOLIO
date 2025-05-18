@@ -1,64 +1,84 @@
-<script>
+<script setup>
+import ImageProvider from './ImageProvider.vue';
+import FadeIn from '@/components/transitions/FadeIn.vue'
+import SlideRight from './transitions/SlideRight.vue';
+import SlideUp from './transitions/SlideUp.vue';
 
+const coreSkills = [
+  { name: 'Administration', percent: 95, color: 'bg-purple-600' },
+  { name: 'Customer Service Specialist', percent: 98, color: 'bg-pink-500' },
+  { name: 'Email Management', percent: 95, color: 'bg-blue-400' },
+  { name: 'Real Estate Specialist', percent: 90, color: 'bg-green-500' },
+  { name: 'Time & Calendar Management', percent: 92, color: 'bg-yellow-400' },
+  { name: 'Data Entry & File Management', percent: 95, color: 'bg-cyan-500' },
+  { name: 'Invoice & Bank Reconciliation', percent: 88, color: 'bg-red-400' },
+  { name: 'System CRM Software', percent: 90, color: 'bg-indigo-500' },
+  { name: 'MS Office Suite Expertise', percent: 90, color: 'bg-emerald-500' },
+  { name: 'Creating Contracts & Documents', percent: 85, color: 'bg-teal-500' },
+  { name: 'Travel & Bookings Management', percent: 87, color: 'bg-orange-400' }
+]
+
+const tools = [
+  'Property Tree',
+  'Propertyware',
+  'Jivo Chat',
+  'Monday.com',
+  'CRM Sales Force',
+  'CRM Eagle',
+  'Property Management',
+  'Inspection Express',
+  'Excel, Google Drive, MS, Word, Teams',
+  'REI Forms Live DocuSign',
+  'Residential Bond Board',
+  'Smoke Alarm Solution agent site for compliance',
+  'City Council agent site for redirections of Bills'
+]
 </script>
 
 <template>
-  <div class="py-20 bg-white text-primary flex items-center justify-center px-6">
-    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
-      <div>
-        <h1 class="font-extrabold text-4xl md:text-6xl lg:text-7xl text-primary uppercase">personal skills</h1>
-        <p class="mt-4 text-base md:text-lg lg:text-xl text-primary leading-relaxed max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <div class="py-12 px-6 bg-white text-primary">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+      <FadeIn :delay="0">
+        <h1 class="font-extrabold text-4xl md:text-6xl mb-6 uppercase">Skills & Expertise</h1>
+        <p class="mb-12 text-gray-600 text-lg md:text-xl leading-relaxed">
+          I offer a comprehensive range of administrative and client-support skills tailored for property management,
+          scheduling, CRM systems, and more. Below is a breakdown of my strongest areas of expertise.
         </p>
-      </div>
-      <!-- Right Section -->
-      <div class="flex flex-col space-y-4 text-primary leading-relaxed">
-        <div class="grid grid-cols-2 gap-4 ">
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Data Management
-          </button>
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Administrative Support
-          </button>
+      </FadeIn>
+
+      <!-- Core Skills -->
+      <SlideUp :delay="300">
+        <h2 class="text-3xl font-bold mb-6">Core Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div v-for="skill in coreSkills" :key="skill.name">
+            <div class="flex justify-between text-base font-medium mb-2">
+              <span>{{ skill.name }}</span>
+              <span>{{ skill.percent }}%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div :class="`${skill.color} h-3 rounded-full`" :style="`width: ${skill.percent}%`"></div>
+            </div>
+          </div>
         </div>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Social Media 
-          </button>
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Content Management
-          </button>
+      </SlideUp>
+
+      <!-- Tools & Software -->
+      <SlideRight :delay="600" :duration="1500">
+        <h2 class="text-3xl font-bold mb-4">Tools & Software</h2>
+        <p class="mb-6 text-gray-600 text-lg md:text-xl leading-relaxed">
+          Experienced in using a wide range of property management, communication, and productivity tools:
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <span
+            v-for="tool in tools"
+            :key="tool"
+            class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent transition duration-300 text-base"
+          >
+            {{ tool }}
+          </span>
         </div>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            E-commerce Support
-          </button>
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Accounting / Bookkeeping
-          </button>
-        </div>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Email Marketing
-          </button>
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Project Management
-          </button>
-        </div>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Time Management
-          </button>
-          <button class="uppercase bg-[#BFBBA9] border-2 border-[#BFBBA9] rounded-full py-2 px-4 hover:bg-transparent duration-300">
-            Organization
-          </button>
-        </div>
-      </div>
+      </SlideRight>
     </div>
   </div>
 </template>
-
-<style>
-</style>

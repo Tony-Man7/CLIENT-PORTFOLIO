@@ -5,7 +5,7 @@ import About from './components/About.vue'
 import Skills from './components/Skills.vue'
 import Experience from './components/Experience.vue'
 import Education from './components/Education.vue'
-import Projects from './components/Projects.vue'
+import Testimony from './components/Testimony.vue'
 import Contact from './components/Contact.vue'
 
 
@@ -22,7 +22,7 @@ import Contact from './components/Contact.vue'
     <Skills />
     <Experience />
     <Education />
-    <Projects />
+    <Testimony />
     <Contact />
 
   </div>

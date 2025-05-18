@@ -1,8 +1,8 @@
 <script setup>
 import heroImage from '../assets/hero-bg.png';
-import aboutImage from '../assets/about-img.png';
+import aboutImage from '../assets/about-img.webp';
 import experienceImage from '../assets/exp-banner.png';
-import educationImage from '../assets/education-img.png';
+import educationImage from '../assets/education-img.webp';
 import projectImage1 from '../assets/project1.png';
 import projectImage2 from '../assets/project2.png';
 import projectImage3 from '../assets/project3.png';
