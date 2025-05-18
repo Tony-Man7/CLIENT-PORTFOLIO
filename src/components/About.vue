@@ -24,7 +24,7 @@ import SlideRight from './transitions/SlideRight.vue';
         
 
             <p class="mb-4 text-gray-600 text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
-              Hi, I’m Charlene Jose — a virtual assistant experienced in property management, real estate support, customer service, and travel consulting. I handle everything from tenant communication and admin tasks to calendar management and travel bookings. I’ve supported clients across Australia, the U.S., and Canada, adapting to different systems and workflows with ease. I thrive in fast-paced environments where clear communication and strong organization are key. I’m here to help streamline your workflow and support your business goals.
+              Hi, I’m Charlene Jose — a virtual assistant experienced in property management, real estate support, customer service, and travel consulting. I handle everything from tenant communication and admin tasks to calendar management and travel bookings. I’ve supported clients across Australia, the U.S. adapting to different systems and workflows with ease. I thrive in fast-paced environments where clear communication and strong organization are key. I’m here to help streamline your workflow and support your business goals.
             </p>
 
             <ul class="space-y-3 mb-6">
@@ -79,7 +79,7 @@ import SlideRight from './transitions/SlideRight.vue';
                   <h2 class="text-primary text-2xl font-bold">+50 More</h2>
                 </div>
                 <p class="mb-4 text-gray-600 text-base md:text-lg lg:text-xl text- leading-relaxed max-w-2xl mx-auto">
-                  Trusted by over 50 clients across Australia, the U.S., and Canada for reliable, efficient, and professional virtual assistance tailored to their business needs.
+                  Trusted by over 50 clients across Australia, the U.S. for reliable, efficient, and professional virtual assistance tailored to their business needs.
                 </p>
               </div>
             </div>
