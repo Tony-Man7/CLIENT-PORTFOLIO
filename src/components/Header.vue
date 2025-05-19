@@ -55,7 +55,7 @@ const isMenuOpen = ref(false);
         class="md:hidden bg-[#181818] px-6 pt-4 pb-6 flex flex-col space-y-4 text-center"
       >
         <a href="#about" class="hover:text-gray-400 transition">About</a>
-        <a href="#projects" class="hover:text-gray-400 transition">Projects</a>
+        <a href="#testimony" class="hover:text-gray-400 transition">Testimony</a>
         <a href="#contact" class="hover:text-gray-400 transition">Contact</a>
         <a
           href="/public/Charlene Jose Resume 2025.pdf"
