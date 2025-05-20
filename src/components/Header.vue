@@ -16,7 +16,7 @@ const isMenuOpen = ref(false);
         <li><a href="#contact" class="hover:text-gray-400 transition">Contact</a></li>
         <li>
           <a
-            href="/public/Charlene Jose Resume.pdf"
+            href="/Charlene Jose Resume.pdf"
             download
             class="px-5 py-2 text-sm font-semibold uppercase border border-secondary-600 bg-primary text-secondary rounded-full hover:bg-[#d6c6a8] hover:text-primary transition-colors duration-300"
           >
@@ -58,7 +58,7 @@ const isMenuOpen = ref(false);
         <a href="#testimony" class="hover:text-gray-400 transition">Testimony</a>
         <a href="#contact" class="hover:text-gray-400 transition">Contact</a>
         <a
-          href="/public/Charlene Jose Resume.pdf"
+          href="/Charlene Jose Resume.pdf"
           download
           class="inline-block mt-2 px-5 py-2 text-sm font-semibold uppercase border border-secondary-600 bg-primary text-secondary rounded-full hover:bg-[#d6c6a8] hover:text-primary transition-colors duration-300"
         >
