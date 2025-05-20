@@ -32,7 +32,7 @@
             Let’s Talk
           </a>
           <a
-            href="/Charlene Jose Resume 2025.pdf"
+            href="/Charlene Jose Resume.pdf"
             download
             class="px-6 py-3 text-sm md:text-base font-semibold uppercase bg-primary text-secondary rounded-lg hover:bg-accent hover:text-primary transition-colors duration-300"
           >

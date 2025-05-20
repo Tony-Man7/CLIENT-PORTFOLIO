@@ -76,10 +76,10 @@ import SlideRight from './transitions/SlideRight.vue';
               <div class="mb-4 text-base">
                 <div class="flex items-center mb-1">
                   <h5 class="text-lg font-medium border-r pr-3 mr-3">Happy Clients</h5>
-                  <h2 class="text-primary text-2xl font-bold">05</h2>
+                  <h2 class="text-primary text-2xl font-bold">08</h2>
                 </div>
-                <p class="mb-4 text-gray-600 text-base md:text-lg lg:text-xl text- leading-relaxed max-w-2xl mx-auto">
-                  Trusted by clients across Australia and the U.S. for dependable, efficient, and professional virtual assistance tailored to their business needs.
+                <p class="mb-4 text-gray-600 text-base md:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto">
+                  Trusted by 3 Virtual Assistant clients and 5 Customer Service clients across Australia and the U.S. for dependable, efficient, and professional support tailored to their business needs.
                 </p>
               </div>
             </div>
