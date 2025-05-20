@@ -59,7 +59,7 @@ const sendEmail = async (e) => {
           </div>
           <div class="flex items-start gap-3">
             <FontAwesomeIcon :icon="['fas', 'envelope']" class="mt-1 text-lg text-secondary" />
-            <a href="mailto:charlenejose607@gmail.com"><span>Charlenejose607@gmail.com</span></a>
+            <a href="mailto:vacharlene98@gmail.com"><span>vacharlene98@gmail.com</span></a>
           </div>
           <div class="flex items-start gap-3">
             <FontAwesomeIcon :icon="['fas', 'location-dot']" class="mt-1 text-lg text-secondary" />
