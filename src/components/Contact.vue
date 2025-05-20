@@ -69,16 +69,20 @@ const sendEmail = async (e) => {
 
         <!-- Social Links -->
         <div class="mt-6 flex justify-center lg:justify-start space-x-6">
-          <a href="https://www.facebook.com" target="_blank" class="text-xl text-secondary hover:text-secondary">
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
+          <a href="https://www.upwork.com/freelancers/~01857220ca7e6a0f49" target="_blank" class="text-xl text-secondary hover:text-white">
+            <FontAwesomeIcon :icon="['fas', 'briefcase']" />
           </a>
-          <a href="https://www.linkedin.com" target="_blank" class="text-xl text-secondary hover:text-white">
+          <a href="https://www.linkedin.com/in/charlene-jose-787103210/" target="_blank" class="text-xl text-secondary hover:text-white">
             <FontAwesomeIcon icon="fa-brands fa-linkedin" />
           </a>
-          <a href="https://twitter.com" target="_blank" class="text-xl text-secondary hover:text-white">
-            <FontAwesomeIcon icon="fa-brands fa-twitter" />
+          <a href="https://wa.me/639761823544" target="_blank" class="text-xl text-secondary hover:text-white">
+            <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
+          </a>
+          <a href="https://t.me/CharleneGJ" target="_blank" class="text-xl text-secondary hover:text-white">
+            <FontAwesomeIcon icon="fa-brands fa-telegram" />
           </a>
         </div>
+
       </div>
 
       <!-- Right Section: Form -->
