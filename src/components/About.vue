@@ -79,7 +79,7 @@ import SlideRight from './transitions/SlideRight.vue';
                   <h2 class="text-primary text-2xl font-bold">05</h2>
                 </div>
                 <p class="mb-4 text-gray-600 text-base md:text-lg lg:text-xl text- leading-relaxed max-w-2xl mx-auto">
-                  Trusted by over 5 clients across Australia, the U.S. for reliable, efficient, and professional virtual assistance tailored to their business needs.
+                  Trusted by clients across Australia and the U.S. for dependable, efficient, and professional virtual assistance tailored to their business needs.
                 </p>
               </div>
             </div>
