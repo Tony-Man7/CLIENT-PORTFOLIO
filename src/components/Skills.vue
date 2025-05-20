@@ -24,6 +24,7 @@ const tools = [
   'Jivo Chat',
   'Monday.com',
   'CRM Sales Force',
+  'DocuSign',
   'CRM Eagle',
   'Property Management',
   'Inspection Express',
